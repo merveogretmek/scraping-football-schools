@@ -16,3 +16,35 @@ The `scraping_script.py` file:
    - Image links (uploaded to Cloudinary)
 4. Combines results for both "currently available" and "discontinued" modules into a single DataFrame.
 5. Writes final data to `product_df.csv`. 
+
+## Requirements
+
+- Python 3.7+
+- Chrome Browser
+- ChromeDriver
+- Libraries
+   - requests
+   - selenium
+   - pandas
+   - beautifulsoup4
+   - cloudinary
+
+You can install them via:
+
+```bash
+pip install selenium pandas beautifulsoup4 cloudinary
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
