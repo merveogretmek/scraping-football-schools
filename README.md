@@ -62,3 +62,20 @@ python scraping_script.py
    - Waits for the table to appear.
    - Retrieves each row, extracting the school name and address data.
   
+## Usage
+
+Simply run:
+
+```bash
+python scraping_script.py
+```
+
+All found school records (name, address, city, country) are written to `schools_data.csv`.
+
+## Troubleshooting
+
+- If you get a Timeout or Connection error, check your internet connection or increase the Selenium `WebDriverWait` durations in the code.
+- Ensure ChromeDriver is up to date and in your PATH or referenced correctly.
+
+
+Feel free to open pull requests or issues if you want to extend or improve this scraper.
